@@ -1,2 +1,15 @@
-# \[Enter your portfolio title here\]
-\[Enter your responses to Week 1, tasks 2 and 3 here\]
+# \[Machine Learning For Music Dataset\]
+\[Challenges to music and music data include: historical data being corrupted, lost or damaged. Copyright or protected data. Low amounts of music data available for new instances or less developed projects. In terms of curation challenges, this could include: busy organisation, overload of data, irrelevant or incosistent data, data-related regulatory and security requirements, business dataset requirements, dataset coding syntax issues. Distribution challenges include: finding platforms for datasets, understanding who needs the dataset, what companies would use it, is it a commerical or personal dataset?, will I sell the dataset?, what is the dataset value?, how do I advertise this dataset? 
+
+How does my selected theme present these challenges?: Machine learning AI may have issues with historical formats, might get the wrong picture or created a dillusioned perception of our timeline, data will probably need to be well defined and popular with supporting data and cross references, organising the data will be strenuous, security and copyright issues could arises if using existing datasets information, question of ethics, not sure if there are music companies seeking the use of AI for music purposes. Newly developing phenomenon in the sound industry so perhaps low amount of successful dataset work available that relates directly to my chosen theme. Is there a chance that the dataset could be bias? 
+
+Presented Data relating to my theme: multiple github repositries, PDF files with explanations, midi files, audio files... for example:
+The MAESTRO dataset contains over 200 hours of paired audio and MIDI recordings from ten years of International Piano-e-Competition. The MIDI data includes key strike velocities and sustain/sostenuto/una corda pedal positions. Audio and MIDI files are aligned with ∼3 ms accuracy and sliced to individual musical pieces, which are annotated with composer, title, and year of performance. Uncompressed audio is of CD quality or higher (44.1–48 kHz 16-bit PCM stereo).
+Another example:
+MusicCaps is a dataset composed of 5.5k music-text pairs, with rich text descriptions provided by human experts. For each 10-second music clip, MusicCaps provides:
+1) A free-text caption consisting of four sentences on average, describing the music and
+2) A list of music aspects, describing genre, mood, tempo, singer voices, instrumentation, dissonances, rhythm, etc.
+Another example:
+MUSAN is a corpus of music, speech and noise. This dataset is suitable for training models for voice activity detection (VAD) and music/speech discrimination. The dataset consists of music from several genres, speech from twelve languages, and a wide assortment of technical and non-technical noises.
+A final example:
+MusicNet is a collection of 330 freely-licensed classical music recordings, together with over 1 million annotated labels indicating the precise time of each note in every recording, the instrument that plays each note, and the note's position in the metrical structure of the composition. The labels are acquired from musical scores aligned to recordings by dynamic time warping. The labels are verified by trained musicians; we estimate a labeling error rate of 4%. We offer the MusicNet labels to the machine learning and music communities as a resource for training models and a common benchmark for comparing results.\]
