@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>My Portfolio Page 1</title>
+  <title>My Portfolio Page 2</title>
 
 </head>
 <body>
@@ -8,25 +8,44 @@
   <h1>Week[2]</h1>
   
   <p>[Music Analytic’s 
+    TASK: In the space provided on the verovio.html page, compare 3 elements in the MusicXML file to the corresponding ones in MEI.
+    
+    The information below is also located within the code located on the Verivio.html file in my Github respository. For sake of ease, readability and assessment, I have 
+    put the info here in a seperate html file. See below answer to above task.
+    
+            First noticeable difference on a readable scale is that some notation within the XML 
+            file is colour coded Upon reading the XML handbook, it is concluded that this is due to the fact 
+            Musescore considers the skill level of the musician and the range capabilities of an instrument. 
+            Coloured notes that appear red are outside the range of a professional player and they are olive 
+            green/dark yellow if outside the range of an early amateur. This only happens upon reading the file 
+            on a computer and not on the printed score. The MEI file as viewed in Verovio does not offer this 
+            feature. 
 
-Guardians of the galaxy main theme score by Tyler Bates
+            Upon opening both the XML and MEI files in a text editor. Within the XML file code for rhythm is 
+            split into many lines such as Time, Beats, number, Beat type. Every variable or element has to be 
+            opened and closed separately whereas on MEI you can have multiple elements described in one line. 
+            For example instrument definition, midi channel and midi volume in one bracket. Information related 
+            to a chosen element can be kept within the same bracket on a MEI file. In MusicXML, individual 
+            movements are usually represented as separate files.
 
-Areas where Musescore failed:
+            <MEI Head> followed by <Music> then <Body> then the code descriptions of the notation is in chronological 
+                order.  The parent attributes in MEI appear to have rankings in the sense that the <MEI Head> function 
+                    holds all the code  and the level of jurisdiction lowers with each subsequent child heading. 
+                    Whereas in Music XML it appears the parent head or root element is <score partwise>. 
+                        XML then appears to be more organised with Top Level elements which contain grouped lower 
+                        level elements that contain the musical data. It would seem that Music XML has more parent
+                        and child grouping compared with MEI. This would explain why music xml has over ten thousand 
+                        lines of code compared with a few hundred lines with MEI code. 
 
-- Tempo assumed 120 when correct tempo is 107
-- Instruments all labeled as voices when they were 5 separate instruments
-- 9th staff bar 1 after the triplet we have a duplet and a semi quaver, Musescore has changed this into 3 semi quavers
-- It has done the same on bar 2 and 3 on the 9th staff 
-- Staff 21 - 25 missing time signature 2/4 on Musescore, Should be present in Bar 3
-- Staff 36-40 also missing key signature on bar 3, musescore not presenting the 2/4 again.
-- Staff 39 the dynamic of crescendo hairpin is only covering the dotted quaver in musescore when on the original it covers the quaver and dotted duplet. 
-- 46-50 we are missing key signatures Missing Ab major or F minor on Musescore. 
-- As a result of replacing in the correct key signature, many notes were automatically given accidentals ie Sharps. 
-- 51-55 staff have incorrect crescendo hairpins on bar 2 in Musescore
-- Final section we have an extra bar of rests added by Musescore
-- Missing time signature 4/4
-- Missing crescendo 
-- Having trouble removing added rests and replacing with 4/4 signature but want to keep only three bars and prevent notes from shifting…
+
+              MEI provides greater affordances for encoding semantically and gaining more structurally rich metadata
+                        for machine reading whereas it is clear that XML is superior in capturing notation and its 
+                        layout. It Is clear that MEI is additionally providing intellectual content about the 
+                        notation rather than just its appearance or structure. It is also noted that MEI includes 
+                        XML IDs to reference.
+
+
+    
 ]</p>
 
   
