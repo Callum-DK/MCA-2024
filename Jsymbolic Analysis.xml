@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>C:\Users\2954339K\Desktop\Tyler Bates GOTG Main Theme - MIDI File 2.mid</data_set_id>
+		<feature>
+			<name>Range</name>
+			<v>5E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>5.614E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch Class</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Major or Minor</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Last Pitch</name>
+			<v>3.4E1</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>7.755E-1</v>
+			<v>3.166E-2</v>
+			<v>1.148E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.297E-1</v>
+			<v>2.87E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>4.879E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Rhythmic Value</name>
+			<v>2.5E-1</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>ngle pitch class.</description>
+      <is_sequential>true</is_sequential>
+      <parallel_dimensions>1</parallel_dimensions>
+   </feature>
+
+   <feature>
+      <name>Major or Minor</name>
+      <description>Whether the piece is major or minor, as indicated by the first encountered major/minor metadata tag in the piece. Set to 0 if the metadata indicates that the piece is major, or set to 1 if the metadata indicates that it is minor. Defaults to 0 if the key signature is unknown.</description>
+      <is_sequential>true</is_sequential>
+      <parallel_dimensions>1</parallel_dimensions>
+   </feature>
+
+   <feature>
+      <name>Last Pitch</name>
+      <description>The MIDI pitch value of the last note in the piece. If there are multiple notes with simultaneous attacks at the end of the piece, then the one with the lowest pitch is selected. Set to 0 if there are no pitched notes.</description>
+      <is_sequential>true</is_sequential>
+      <parallel_dimensions>1</parallel_dimensions>
+   </feature>
+
+   <feature>
+      <name>Chord Type Histogram</name>
+      <description>A feature vector consisting of bin magnitudes of the chord type histogram described in the jSymbolic manual. This is a normalized histogram that has bins labeled with types of chords (in the following order and with the indicated identifying codes): partial chords consisting of just two pitch classes [0], minor triads [1], major triads [2], diminished triads [3], augmented triads [4], other triads [5], minor seventh chords [6], dominant seventh chords [7], major seventh chords [8], other chords consisting of four pitch classes [9], and complex chords with more than four pitch classes [10]. The bin magnitudes are calculated by going through MIDI ticks one by one and incrementing the counter for the bin that corresponds to the chord, if any, that is present during eah given tick; the result is that the chords in this histogram are weighted by the duration with which each chord is played. All inversions are treated as equivalent and octave doubling is ignored in the calculation of this histogram. Melodic behaviour is not considered, so arpeggios are not counted in this histogram.</description>
+      <is_sequential>true</is_sequential>
+      <parallel_dimensions>11</parallel_dimensions>
+   </feature>
+
+   <feature>
+      <name>Most Common Rhythmic Value</name>
+      <description>The most common rhythmic value of the music, in quarter note units. So, for example, a Most Common Rhythmic Value of 0.5 would mean that eighth notes occur more frequently than any other rhythmic value. This calculation includes both pitched and unpitched notes, is calculated after rhythmic quantization, is not influenced by tempo, and is calculated without regard to the dynamics, voice or instrument of any given note.</description>
+      <is_sequential>true</is_sequential>
+      <parallel_dimensions>1</parallel_dimensions>
+   </feature>
+
+</feature_key_file>
