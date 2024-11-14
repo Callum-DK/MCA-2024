@@ -1,0 +1,2615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead xml:id="m1u7jrbr">
+      <fileDesc xml:id="fwwtltk">
+         <titleStmt xml:id="trvsb2n">
+            <title auth.uri="https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(soundtrack)" auth="Wikipedia">Guardians of the Galaxy (Original Score)</title>
+            <respStmt>
+               <persName role="Composer" startdate="1965" enddate="2024" auth="VIAF" auth.uri="http://viaf.org/viaf/24822107">Tyler Bates</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt xml:id="pvr2iph">
+            <distributor>
+               <repository role="NotationApplication" auth.uri="https://musescore.com/user/47712515/scores/20180218?share=copy_link" auth="musescore">Musescore</repository>
+            </distributor>
+            <date isodate="2024-10-10" type="encoding-date">2024-10-10</date>
+            <publisher>
+               <corpName role="publisher" auth.uri="https://d-nb.info/1154313409" auth="DNB">Marvel Music, Inc</corpName>
+            </publisher>
+            <availability>
+            <useRestrict>Creative Commons Attribution 4.0 International</useRestrict>
+            </availability>
+         </pubStmt>
+         <notesStmt>
+         <annot>Genre: Epic Orchestral / Soundtrack.
+         </annot>
+        </notesStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e1mgck01">
+         <appInfo xml:id="a7qjn24">
+            <application xml:id="ap6xqyv" isodate="2024-10-10T10:44:43" version="4.4.0-dev-7f5c3bf">
+               <name xml:id="n1labm14">Verovio</name>
+               <p xml:id="p1xk0ivw">Transcoded from MusicXML</p>
+            </application>
+            <application xml:id="a6gleja1" startdate="2024-11-14T20:15:24" version="1.0.14p">
+               <name xml:id="nlscuao2">mei-friend</name>
+               <p xml:id="pvwiic61">First edit by mei-friend 1.0.14p, 3 September 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <pgHead>
+                     <rend halign="center" valign="top">Guirdians Of The Galaxy Main Theme 
+</rend>
+                  </pgHead>
+                  <pgFoot>
+                     <rend>Tyler Bates</rend>
+                  </pgFoot>
+                  <staffGrp>
+                     <staffDef n="1" lines="5" ppq="4">
+                        <label>Bb Trumpet 1</label>
+                        <instrDef midi.channel="0" midi.instrnum="53" midi.volume="77.00%"/>
+                        <clef shape="G" line="2"/>
+                        <keySig sig="2f"/>
+                        <meterSig count="4" unit="4"/>
+                     </staffDef>
+                     <staffDef n="2" lines="5" ppq="4">
+                        <label>Bb Trumpet 2</label>
+                        <instrDef midi.channel="1" midi.instrnum="53" midi.volume="77.00%"/>
+                        <clef shape="G" line="2"/>
+                        <keySig sig="2f"/>
+                        <meterSig count="4" unit="4"/>
+                     </staffDef>
+                     <staffDef n="3" lines="5" ppq="4">
+                        <label>Horn in F</label>
+                        <instrDef midi.channel="2" midi.instrnum="53" midi.volume="77.00%"/>
+                        <clef shape="G" line="2"/>
+                        <keySig sig="2f"/>
+                        <meterSig count="4" unit="4"/>
+                     </staffDef>
+                     <staffDef n="4" lines="5" ppq="4">
+                        <label>Trombone</label>
+                        <instrDef midi.channel="3" midi.instrnum="53" midi.volume="77.00%"/>
+                        <clef shape="F" line="4"/>
+                        <keySig sig="2f"/>
+                        <meterSig count="4" unit="4"/>
+                     </staffDef>
+                     <staffDef n="5" lines="5" ppq="4">
+                        <label>Tuba</label>
+                        <instrDef midi.channel="4" midi.instrnum="53" midi.volume="77.00%"/>
+                        <clef shape="F" line="4"/>
+                        <keySig sig="2f"/>
+                        <meterSig count="4" unit="4"/>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <pb/>
+                  <measure n="1">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <dynam place="below" staff="4" tstamp="1.000000" val="80" vgrp="445">mf</dynam>
+                  </measure>
+                  <measure n="2">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb/>
+                  <measure n="3">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <tuplet bracket.visible="false">
+                                 <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                                 <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              </tuplet>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="4">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <tuplet bracket.visible="false">
+                                 <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                                 <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              </tuplet>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="e" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="e" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="d" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="d" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="5">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <tuplet bracket.visible="false">
+                                 <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                                 <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              </tuplet>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <dynam place="below" staff="2" tstamp="1.000000" val="60" vgrp="435">mp</dynam>
+                  </measure>
+                  <pb/>
+                  <measure n="6">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="7">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <hairpin staff="2" tstamp="1.000000" tstamp2="0m+4.7500" form="cres" place="below" vgrp="630"/>
+                  </measure>
+                  <sb/>
+                  <measure n="8">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="e" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="e" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="d" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="d" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="9">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dur.ppq="4" dur="4"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="8" dur="2" oct="4" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="8" dur="2" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="16" dur="1" oct="2" pname="g"/>
+                        </layer>
+                     </staff>
+                     <dynam place="above" staff="2" tstamp="1.000000" val="80" vgrp="2015">mf</dynam>
+                     <dynam place="below" staff="2" tstamp="1.000000" val="60" vgrp="425">mp</dynam>
+                     <dynam place="below" staff="3" tstamp="1.000000" val="90" vgrp="545">f</dynam>
+                  </measure>
+                  <pb/>
+                  <measure n="10">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <note dur.ppq="8" dur="2" oct="4" pname="g" stem.dir="up"/>
+                           <note dur.ppq="4" dur="4" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up"/>
+                           <note dur.ppq="8" dur="2" oct="4" pname="d" stem.dir="up"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="16" dur="1" oct="2" pname="g"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="11">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="5" pname="c" stem.dir="down"/>
+                           <note dur.ppq="4" dur="4" oct="4" pname="c" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="4" pname="e" stem.dir="up">
+                              <accid accid="n"/>
+                           </note>
+                           <note dur.ppq="4" dur="4" oct="4" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           <rest dur.ppq="1" dur="16"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="16" dur="1" oct="2" pname="c"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <scoreDef>
+                     <meterSig count="2" unit="4"/>
+                  </scoreDef>
+                  <measure n="12">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur.ppq="8" dur="2" oct="4" pname="d" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                           <rest dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up"/>
+                           </beam>
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="3" pname="c" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="8" dur="2" oct="2" pname="d" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb/>
+                  <scoreDef>
+                     <meterSig count="3" unit="4"/>
+                  </scoreDef>
+                  <measure n="13">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="d" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <dynam place="below" staff="2" tstamp="1.000000" val="90" vgrp="495">f</dynam>
+                     <dynam place="below" staff="3" tstamp="1.000000" val="90" vgrp="495">f</dynam>
+                     <dynam place="below" staff="4" tstamp="1.000000" val="50" vgrp="425">p</dynam>
+                  </measure>
+                  <measure n="14">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="n183w17m" dur="2" dur.ppq="8" oct="4" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="nmcuiva" dur="8" dur.ppq="2" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1fvrsmg" dur="2" dur.ppq="8" oct="4" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1b5iys2" dur="8" dur.ppq="2" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="3" pname="c" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="c" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="d" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie startid="#n183w17m" endid="#nmcuiva" curvedir="below"/>
+                     <tie startid="#n1fvrsmg" endid="#n1b5iys2" curvedir="below"/>
+                  </measure>
+                  <measure n="15">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dots="1" dur.ppq="3" dur="8"/>
+                           <note dur.ppq="1" dur="16" oct="5" pname="g" stem.dir="down"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="b" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="a" stem.dir="down"/>
+                           </beam>
+                           <note dots="1" dur.ppq="6" dur="4" oct="5" pname="g" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="nnk8hfu" dur="2" dur.ppq="8" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n14n5iqs" dur="8" dur.ppq="2" oct="3" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1xad0fc" dur="2" dur.ppq="8" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n15qjdst" dur="8" dur.ppq="2" oct="3" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="nbvfkpv" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#nnk8hfu" endid="#n14n5iqs" curvedir="below"/>
+                     <tie startid="#n1xad0fc" endid="#n15qjdst" curvedir="below"/>
+                     <tie startid="#nbvfkpv" endid="#ny90pef" curvedir="below"/>
+                  </measure>
+                  <measure n="16">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dots="1" dur.ppq="6" dur="4"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <rest dur.ppq="4" dur="4"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="ny90pef" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="17">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="nnmwsxk" dur="2" dur.ppq="8" oct="4" pname="d" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1qn69p6" dur="8" dur.ppq="2" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n12u4h96" dur="2" dur.ppq="8" oct="4" pname="d" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n10eq9fl" dur="8" dur.ppq="2" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n18xcjek" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="c" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="d" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie startid="#nnmwsxk" endid="#n1qn69p6" curvedir="below"/>
+                     <tie startid="#n12u4h96" endid="#n10eq9fl" curvedir="below"/>
+                     <slur startid="#n18xcjek" endid="#n1wuj0as" curvedir="below"/>
+                  </measure>
+                  <pb/>
+                  <measure n="18">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dur.ppq="8" dur="2"/>
+                           <note dur.ppq="4" dur="4" oct="5" pname="f" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dur.ppq="8" dur="2" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1py0696" dots="1" dur="2" dur.ppq="12" oct="3" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n1wuj0as" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#n1py0696" endid="#ne9npmd" curvedir="below"/>
+                  </measure>
+                  <measure n="19">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="n1pg133w" accid.ges="f" dur="2" dur.ppq="8" oct="5" pname="b" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="n9d9ag6" accid.ges="f" dur="8" dur.ppq="2" oct="5" pname="b" stem.dir="down"/>
+                              <note dur.ppq="2" dur="8" oct="6" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="nvj6rz0" accid.ges="f" dur="2" dur.ppq="8" oct="4" pname="b" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="nk7caic" accid.ges="f" dur="8" dur.ppq="2" oct="4" pname="b" stem.dir="down"/>
+                              <note dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="ne9npmd" dots="1" dur="2" dur.ppq="12" oct="3" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="2" pname="f" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="f" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="up"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#n1pg133w" endid="#n9d9ag6" curvedir="above"/>
+                     <tie startid="#nvj6rz0" endid="#nk7caic" curvedir="above"/>
+                  </measure>
+                  <measure n="20">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="nrthptb" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note xml:id="n1s1pavk" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <dynam place="below" staff="2" tstamp="1.000000" val="60" vgrp="425">mp</dynam>
+                     <dynam place="below" staff="3" tstamp="1.000000" val="60" vgrp="425">mp</dynam>
+                     <tie startid="#nrthptb" endid="#n1gcudky" curvedir="below"/>
+                     <tie startid="#n1s1pavk" endid="#n7fyiy1" curvedir="below"/>
+                  </measure>
+                  <measure n="21">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down"/>
+                              <note dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down"/>
+                              <note dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down"/>
+                           </beam>
+                           <rest dur.ppq="4" dur="4"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="4" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="4" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n1gcudky" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note xml:id="n7fyiy1" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="22">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                              <note dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                              <note dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                           <rest dur.ppq="4" dur="4"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n1ww7lbx" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note xml:id="n1ig9r67" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <slur startid="#n1ww7lbx" endid="#n1mq9rhp" curvedir="below"/>
+                     <slur startid="#n1ig9r67" endid="#nvvxaow" curvedir="below"/>
+                  </measure>
+                  <sb/>
+                  <measure n="23">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note breaksec="1" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="4" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="4" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n1mq9rhp" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note xml:id="nvvxaow" dots="1" dur="2" dur.ppq="12" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="24">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="nk684gd" dur="2" dur.ppq="8" oct="5" pname="c" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="n11idzw" dur="8" dur.ppq="2" oct="5" pname="c" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="nc1lnwn" dur="2" dur.ppq="8" oct="4" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1q8ztvl" dur="8" dur.ppq="2" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="c" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="c" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <dynam place="below" staff="1" tstamp="1.000000" val="60" vgrp="425">mp</dynam>
+                     <tie startid="#nk684gd" endid="#n11idzw" curvedir="above"/>
+                     <tie startid="#nc1lnwn" endid="#n1q8ztvl" curvedir="below"/>
+                  </measure>
+                  <measure n="25">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="n1q3kmpg" dur="2" dur.ppq="8" oct="5" pname="d" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="n1i9xgzb" dur="8" dur.ppq="2" oct="5" pname="d" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1cdlue6" dur="2" dur.ppq="8" oct="4" pname="d" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1t0kzum" dur="8" dur.ppq="2" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="d" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="d" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#n1q3kmpg" endid="#n1i9xgzb" curvedir="above"/>
+                     <tie startid="#n1cdlue6" endid="#n1t0kzum" curvedir="below"/>
+                  </measure>
+                  <measure n="26">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="nbk81oq" dur="2" dur.ppq="8" oct="5" pname="c" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="n1onsw39" dur="8" dur.ppq="2" oct="5" pname="c" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1xjmle2" dur="2" dur.ppq="8" oct="4" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1i3vnfp" dur="8" dur.ppq="2" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="c" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="c" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#nbk81oq" endid="#n1onsw39" curvedir="above"/>
+                     <tie startid="#n1xjmle2" endid="#n1i3vnfp" curvedir="below"/>
+                  </measure>
+                  <scoreDef>
+                     <meterSig count="2" unit="4"/>
+                  </scoreDef>
+                  <measure n="27">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur.ppq="8" dur="2" oct="5" pname="f" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dur.ppq="8" dur="2" oct="4" pname="f" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <rest dur.ppq="2" dur="8"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="8" dur="2" oct="2" pname="f" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <hairpin staff="4" tstamp="1.000000" tstamp2="0m+2.5000" form="cres" place="below" vgrp="730"/>
+                     <dynam place="below" staff="4" tstamp="2.500000" val="110" vgrp="438">ff</dynam>
+                  </measure>
+                  <pb/>
+                  <scoreDef>
+                     <meterSig count="3" unit="4"/>
+                  </scoreDef>
+                  <measure n="28">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="3" pname="d" stem.dir="down"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                     <dynam place="below" staff="2" tstamp="1.000000" val="90" vgrp="495">f</dynam>
+                     <dynam place="below" staff="3" tstamp="1.000000" val="90" vgrp="495">f</dynam>
+                     <dynam place="below" staff="4" tstamp="1.000000" val="90" vgrp="485">f</dynam>
+                  </measure>
+                  <measure n="29">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="n2yqoqg" dur="2" dur.ppq="8" oct="4" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="ng6co8y" dur="8" dur.ppq="2" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n16klr23" dur="2" dur.ppq="8" oct="4" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n10ychdr" dur="8" dur.ppq="2" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n1pd2cdd" dur="2" dur.ppq="8" oct="3" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1n3y6yk" dur="8" dur.ppq="2" oct="3" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="c" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="d" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie startid="#n2yqoqg" endid="#ng6co8y" curvedir="below"/>
+                     <tie startid="#n16klr23" endid="#n10ychdr" curvedir="below"/>
+                     <tie startid="#n1pd2cdd" endid="#n1n3y6yk" curvedir="below"/>
+                  </measure>
+                  <measure n="30">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dots="1" dur.ppq="3" dur="8"/>
+                           <note dur.ppq="1" dur="16" oct="5" pname="g" stem.dir="down"/>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="b" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="a" stem.dir="down"/>
+                           </beam>
+                           <note dots="1" dur.ppq="6" dur="4" oct="5" pname="g" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="n8u1lm5" dur="2" dur.ppq="8" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="nzxetel" dur="8" dur.ppq="2" oct="3" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n79oyxr" dur="2" dur.ppq="8" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="np6fse8" dur="8" dur.ppq="2" oct="3" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n1tlowbr" dur="2" dur.ppq="8" oct="2" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n104di8" dur="8" dur.ppq="2" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="3" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#n8u1lm5" endid="#nzxetel" curvedir="below"/>
+                     <tie startid="#n79oyxr" endid="#np6fse8" curvedir="below"/>
+                     <tie startid="#n1tlowbr" endid="#n104di8" curvedir="below"/>
+                  </measure>
+                  <measure n="31">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dots="1" dur.ppq="6" dur="4"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <rest dur.ppq="4" dur="4"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="3" pname="d" stem.dir="down"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="b" stem.dir="down" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="3" pname="f" stem.dir="down">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="32">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="n1wkblnj" dur="2" dur.ppq="8" oct="4" pname="d" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n140qklh" dur="8" dur.ppq="2" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1eet0zf" dur="2" dur.ppq="8" oct="4" pname="d" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n2p16rg" dur="8" dur.ppq="2" oct="4" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="ndd42ca" dur="2" dur.ppq="8" oct="3" pname="d" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="n1vnc725" dur="8" dur.ppq="2" oct="3" pname="d" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="c" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="c" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="d" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie startid="#n1wkblnj" endid="#n140qklh" curvedir="below"/>
+                     <tie startid="#n1eet0zf" endid="#n2p16rg" curvedir="below"/>
+                     <tie startid="#ndd42ca" endid="#n1vnc725" curvedir="above"/>
+                  </measure>
+                  <sb/>
+                  <measure n="33">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dur.ppq="8" dur="2"/>
+                           <rest dur.ppq="2" dur="8"/>
+                           <note dur.ppq="2" dur="8" oct="5" pname="f" stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="npjmb9w" dur="2" dur.ppq="8" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n164i41o" dur="8" dur.ppq="2" oct="3" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1f2ldke" dur="2" dur.ppq="8" oct="3" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n6u2ckz" dur="8" dur.ppq="2" oct="3" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="n1vq10dg" dur="2" dur.ppq="8" oct="2" pname="g" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1ks6uxx" dur="8" dur.ppq="2" oct="2" pname="g" stem.dir="up"/>
+                              <note dur.ppq="2" dur="8" oct="3" pname="f" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#npjmb9w" endid="#n164i41o" curvedir="below"/>
+                     <tie startid="#n1f2ldke" endid="#n6u2ckz" curvedir="below"/>
+                     <tie startid="#n1vq10dg" endid="#n1ks6uxx" curvedir="below"/>
+                  </measure>
+                  <scoreDef>
+                     <keySig sig="4f"/>
+                  </scoreDef>
+                  <measure n="34">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="5" pname="f" stem.dir="down"/>
+                           <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="down" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="5" pname="f" stem.dir="down">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="f" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="f" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="3" pname="f" stem.dir="down"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="b" stem.dir="up" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="down" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="3" pname="f" stem.dir="down">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <dynam place="below" staff="1" tstamp="1.000000" val="90" vgrp="425">f</dynam>
+                     <dynam place="below" staff="2" tstamp="1.000000" val="90" vgrp="425">f</dynam>
+                     <dynam place="below" staff="3" tstamp="1.000000" val="90" vgrp="425">f</dynam>
+                     <dynam place="below" staff="4" tstamp="1.000000" val="90" vgrp="435">f</dynam>
+                  </measure>
+                  <measure n="35">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="n1c4ggn8" accid.ges="f" dur="2" dur.ppq="8" oct="5" pname="e" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="n14h89u8" accid.ges="f" dur="8" dur.ppq="2" oct="5" pname="e" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="n533tak" accid.ges="f" dur="2" dur.ppq="8" oct="4" pname="e" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n5ogevz" accid.ges="f" dur="8" dur.ppq="2" oct="4" pname="e" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1fa0env" accid.ges="f" dur="2" dur.ppq="8" oct="4" pname="e" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n2uz1mt" accid.ges="f" dur="8" dur.ppq="2" oct="4" pname="e" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="nsa7lc" accid.ges="f" dur="2" dur.ppq="8" oct="3" pname="e" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="n39tgpx" accid.ges="f" dur="8" dur.ppq="2" oct="3" pname="e" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie startid="#n1c4ggn8" endid="#n14h89u8" curvedir="above"/>
+                     <tie startid="#n533tak" endid="#n5ogevz" curvedir="below"/>
+                     <tie startid="#n1fa0env" endid="#n2uz1mt" curvedir="below"/>
+                     <tie startid="#nsa7lc" endid="#n39tgpx" curvedir="above"/>
+                  </measure>
+                  <measure n="36">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="nyo8r0m" accid.ges="f" dur="2" dur.ppq="8" oct="4" pname="b" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="nspohvv" accid.ges="f" dur="8" dur.ppq="2" oct="4" pname="b" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="e" stem.dir="down" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="n1pzvcp2" accid.ges="f" dur="2" dur.ppq="8" oct="3" pname="b" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="na4l6r9" accid.ges="f" dur="8" dur.ppq="2" oct="3" pname="b" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="n1exjzt" accid.ges="f" dur="2" dur.ppq="8" oct="3" pname="b" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="nyn558" accid.ges="f" dur="8" dur.ppq="2" oct="3" pname="b" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="nt92p2a" accid.ges="f" dur="2" dur.ppq="8" oct="2" pname="b" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n1x57dez" accid.ges="f" dur="8" dur.ppq="2" oct="2" pname="b" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="e" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="g" stem.dir="up">
+                              <accid accid="f"/>
+                           </note>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <tie startid="#nyo8r0m" endid="#nspohvv" curvedir="above"/>
+                     <tie startid="#n1pzvcp2" endid="#na4l6r9" curvedir="below"/>
+                     <tie startid="#n1exjzt" endid="#nyn558" curvedir="below"/>
+                     <tie startid="#nt92p2a" endid="#n1x57dez" curvedir="below"/>
+                  </measure>
+                  <measure n="37">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="5" pname="f" stem.dir="down"/>
+                           <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="down" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="5" pname="a" stem.dir="down" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="f" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="4" pname="f" stem.dir="up"/>
+                           <note dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="3" pname="f" stem.dir="down"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="b" stem.dir="up" accid.ges="f">
+                              <artic artic="stacc"/>
+                           </note>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="down" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note dur.ppq="2" dur="8" oct="3" pname="a" stem.dir="down" accid.ges="f">
+                                 <artic artic="stacc"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="b" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <pb/>
+                  <scoreDef>
+                     <keySig sig="4f"/>
+                  </scoreDef>
+                  <measure n="38">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="nxz1e6y" dur="2" dur.ppq="8" oct="5" pname="f" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="nydoq9" dur="8" dur.ppq="2" oct="5" pname="f" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="nvyn95i" dur="2" dur.ppq="8" oct="4" pname="f" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="nmshcwq" dur="8" dur.ppq="2" oct="4" pname="f" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="nx6st1l" dur="2" dur.ppq="8" oct="4" pname="f" stem.dir="up"/>
+                           <beam>
+                              <note xml:id="n11aw3km" dur="8" dur.ppq="2" oct="4" pname="f" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="njbish9" dur="2" dur.ppq="8" oct="3" pname="f" stem.dir="down"/>
+                           <beam>
+                              <note xml:id="nn9jdrj" dur="8" dur.ppq="2" oct="3" pname="f" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="c" stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="e" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="2" dur="8" oct="2" pname="f" stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <tie startid="#nxz1e6y" endid="#nydoq9" curvedir="above"/>
+                     <tie startid="#nvyn95i" endid="#nmshcwq" curvedir="below"/>
+                     <tie startid="#nx6st1l" endid="#n11aw3km" curvedir="below"/>
+                     <tie startid="#njbish9" endid="#nn9jdrj" curvedir="above"/>
+                  </measure>
+                  <measure n="39">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="4" pname="b" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="12" dur="2" oct="3" pname="b" stem.dir="down" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dots="1" dur.ppq="6" dur="4" oct="2" pname="g" stem.dir="up">
+                              <accid accid="f"/>
+                           </note>
+                           <note dur.ppq="2" dur="8" oct="2" pname="g" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <hairpin staff="1" tstamp="1.000000" tstamp2="1m+1.5000" form="dim" place="below" vgrp="630"/>
+                     <hairpin staff="2" tstamp="1.000000" tstamp2="1m+1.5000" form="dim" place="below" vgrp="730"/>
+                     <hairpin staff="4" tstamp="1.000000" form="dim" place="below" vgrp="600"/>
+                     <hairpin staff="5" tstamp="1.000000" tstamp2="0m+4.0000" form="dim" place="below" vgrp="600"/>
+                  </measure>
+                  <measure n="40">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up">
+                                 <accid accid="s"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <space dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up">
+                                 <accid accid="s"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <space dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <hairpin staff="1" tstamp="1.000000" tstamp2="1m+3.7500" form="cres" place="below" vgrp="760"/>
+                     <hairpin staff="2" tstamp="1.000000" tstamp2="1m+3.7500" form="cres" place="below" vgrp="760"/>
+                  </measure>
+                  <measure n="41">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="g" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <space dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="g" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="g" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                           <space dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <sb/>
+                  <measure n="42">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="down">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                           </beam>
+                           <space dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="down">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                           </beam>
+                           <space dur.ppq="1" dur="16"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           <note dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="2" pname="d" stem.dir="up" accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <hairpin staff="3" tstamp="1.000000" tstamp2="1m+7.0000" form="cres" place="above" vgrp="2200"/>
+                  </measure>
+                  <measure n="43">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dur.ppq="8" dur="2"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="e" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="e" stem.dir="down" accid.ges="f"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="e" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="5" pname="e" stem.dir="down">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="5" pname="e" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="f" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="a" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="b" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <rest dur.ppq="8" dur="2"/>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="e" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="e" stem.dir="down" accid.ges="f"/>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="2" dur="8" oct="5" pname="e" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="5" pname="e" stem.dir="down">
+                                 <accid accid="f"/>
+                              </note>
+                              <note dur.ppq="1" dur="16" oct="5" pname="e" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="up">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dur.ppq="1" dur="16" oct="5" pname="d" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="f" stem.dir="down"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="a" stem.dir="down" accid.ges="f"/>
+                              <note dur.ppq="1" dur="16" oct="5" pname="b" stem.dir="down">
+                                 <accid accid="n"/>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <rest dur.ppq="8" dur="2"/>
+                           <note dur.ppq="16" dur="1" oct="2" pname="d" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure right="end" n="44">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note dur.ppq="16" dur="1" oct="2" pname="b" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <note dur.ppq="16" dur="1" oct="1" pname="b" accid.ges="f"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
