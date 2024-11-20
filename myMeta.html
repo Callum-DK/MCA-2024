@@ -1,8 +1,9 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>My Piece</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+  <title>My Piece</title>
+  <!--<link rel="stylesheet" href="css/CETEIcean.css" media="all" />-->
   <link rel="stylesheet" href="css/style.css" media="all" />
   <script src="js/CETEI.js"></script>
 </head>
@@ -15,7 +16,7 @@
          const app = new Verovio.App(document.getElementById("app"), {});
 
     // Load a file (MEI or MusicXML)
-    fetch("data/example2.mei")
+    fetch("data/example.mei")
         .then(function(response) {
             return response.text();
         })
@@ -26,7 +27,7 @@
   <script>
     // Get, parse, and show TEI data
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5("data/example2.mei", function(data) {
+    CETEIcean.getHTML5("data/example.mei", function(data) {
       document.getElementById("TEI").appendChild(data)
     })
     // Get, parse and show MEI header data
@@ -36,7 +37,7 @@
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("data/example2.mei", function(data) {
+    CETEI4MEI.getHTML5("data/example.mei", function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -50,14 +51,13 @@
         scale: 50,
         adjustPageHeight: true
     })
-    fetch("data/example2.mei").then(function( response ) {
+    fetch("data/example.mei").then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
         })
     })
   </script>
-
 </body>
 <footer><p>Score rendering provided by <a href="http://www.verovio.org">Verovio</a>. Metadata rendered by <a href="https://github.com/TEIC/CETEIcean/"> CETEIcean</a>.</p></footer>
 </html>
