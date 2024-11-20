@@ -1812,6 +1812,8 @@ mei-title[type="subordinate"] {
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
+  content: "Title: "
+  font-weight: bold;
   color: #595b66;
   display: block;
   font-size: 24pt;
@@ -1823,7 +1825,6 @@ mei-filedesc > mei-titlestmt > mei-respstmt {
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
-  font-weight: bold;
   content: "Composer: ";
   white-space: pre;
   margin-top: 2em;
