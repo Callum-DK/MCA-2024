@@ -99,20 +99,40 @@ This triggered an attribute error message in cell in[53], line 3. The roman nume
 was defined as "module 'music21.key' has no attribute 'key'
 </p>
     
-
+<p>
 DATA STREAM AND GETTING THE AMBITUS
+</p>
 
-"Music21 can extract the range of a particular voice or instrument. To do this, you will need to figure out which 
+<p>
+"Music21 can extract the range of a particular voice or instrument. "To do this, you will need to figure out which 
 part you would like to analyze. If you are struggling to determine that, you can review the stream structure we 
 displayed above. If you do know the part, use the following, substituting the 0 with the proper part number:"
+</p>
 
+<p>
 "﻿﻿Music 21 stores files in a stream, which is a data structure spaced in time. So, each object has an offset that 
 epresents how many quarter notes it lies from the beginning. A stream can (and often does) contain other streams for scores, parts, and measures."
-For extracting the range of my chosen instrument within my score, I have referred to the stream structure to locate the part number. The following line of code was identified.
-‹music 1.stream.Part Bb Trumpet 1>
-My part number is 1, Upon inputing code to receive the Ambitus the following result was obtained:
-‹music 1.interval.Interval M17> 
+</p>
 
+<p>
+For extracting the range of my chosen instrument within my score, I have referred to the stream structure to locate the part number. The following line of code was identified:
+</p>
+
+<p>
+"‹music 1.stream.Part Bb Trumpet 1>"
+</p>
+
+<p>
+My part number is 1, Upon inputing code to receive the Ambitus the following result was obtained:
+  </p>
+  <p>
+"‹music 1.interval.Interval M17>"
+</p>
+
+  <p>
+      <img src="DataStream.png" alt="DataStream"
+  style="max-width: 50%;"/>
+  </p>
 
 PIANO ROLL OF PITCHES, PITCH HISTOGRAM, SCATTER PLOT OF PITCHES
 
