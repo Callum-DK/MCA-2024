@@ -1,70 +1,62 @@
 <html>
 <head>
-  <title>My Portfolio Page 3</title>
+  <title>My Portfolio Page 8</title>
 
 </head>
 <body>
 
-  <h1>Week[3]</h1>
+  <h1>Week[8]</h1>
   
-  <p>Music Analytic’s</p>
-
   <p>
-    TASK: In the space provided on the verovio.html page, compare 3 elements in the MusicXML file to the corresponding ones in the MEI.
+    From the group lab session, we converted our chosen music peices to midi and played them through Musescore. 
+    The music is played and represented as notes in a piano roll. The system takes into account pitch and rhythm
+    as well as note length.
   </p>
 
   <p>
-    The information below is also located within the code located on the Verivio.html file in my Github respository. 
-    For sake of ease, readability and assessment, I have put the info here in a seperate html file. See below answer to above task:
+    It is noted that Musescore has its own midi instruments that are seamlessly looped and applied to the sheet 
+    notation to playback.
+  </p>
 
+  <p>
+    We exported our peice as a raw audio WAV file and imported this to sonic visualiser. An audio analysis app. 
+    It was a stereo WAV file, primary data is located within the waveform. This waveform is drawn based on amplitude 
+    and frequency. It shows the shape of a wave at a given time. This is a form of spectral representation.
+  </p>
+
+  <p>
+    We created panes in sonic visualiser and generated a spectogram, all the percussive elements such as drums that
+    have high amplitude could be seen visually as verticle peaks in the waveform. Pitch of a sound, was represented
+    as parallel horizontal lines, where the lowest line corrosponds to the fundamental and the higher lines corrospond
+    to the overtones. The spectogram shows the waveform as a heat map, with frequency on the vertical axis and time
+    on the horizontal. Brightness of a colour on the heatmap determines the level of amplitude. Wave amplitude is 
+    the distance between the peak or trough of a wave and its equilibrium position. Amplitude can be measured in decibles.
+  </p>
+
+<p>
+  I discovered that it is possible to export the audio WAV file as a CSV file. Viewing this in an excel sheet, the table
+  was filled with decible numbers. These act as specific time stamps within the peice. This could be used for fine audio editing.
+  Can specifically be used for the likes of creating dubbed and synchronised versions of a video.
+</p>
+
+<p>
+  Areas in space and time on spectrums within audio data will have a reference point listed as a numerical value within a CSV file.
+</p>
+
+  <p>
+    Spectograms can help identify characterstics of signals that are non-stationary or nonlinear. We can deduce that audio data
+    is represented differently from notation data. Audio data is represented in visual waveforms, graphs and heat maps. Notation
+    is represented in print, with particualr rules. Notes in notation are seperated and put in sequencial order, they also factor
+    in the type of instrument being used and the format can be change accordingly. A single note in raw audio data occupies multiple
+    frequency bands. Audio data relates to original notation as we can see consistencies with notational rules and audio waveforms. 
+    Note length, pitch and rhythm within sheet notation will respectfully corrospond to raw audio waveform analysis. Dynamics in sheet
+    notation such as crescendo could relate to raw audio data and relate to the amplitude colour on a spectograph. Louder sounds
+    will have a brighter colour due to more amplitude energy. 
   </p>
 
   <p>
     
-            First noticeable difference on a readable scale is that some notation within the XML 
-            file is colour coded Upon reading the XML handbook, it is concluded that this is due to the fact 
-            Musescore considers the skill level of the musician and the range capabilities of an instrument. 
-            Coloured notes that appear red are outside the range of a professional player and they are olive 
-            green/dark yellow if outside the range of an early amateur. This only happens upon reading the file 
-            on a computer and not on the printed score. The MEI file as viewed in Verovio does not offer this 
-            feature. 
   </p>
-
-  <p>
-
-            Upon opening both the XML and MEI files in a text editor. Within the XML file code for rhythm is 
-            split into many lines such as Time, Beats, number, Beat type. Every variable or element has to be 
-            opened and closed separately whereas on MEI you can have multiple elements described in one line. 
-            For example instrument definition, midi channel and midi volume in one bracket. Information related 
-            to a chosen element can be kept within the same bracket on a MEI file. In MusicXML, individual 
-            movements are usually represented as separate files.
-
-    </p>
-
-  <p>
-            MEI Head followed by Music then Body then the code descriptions of the notation is in chronological 
-                order.  The parent attributes in MEI appear to have rankings in the sense that the MEI Head function 
-                    holds all the code  and the level of jurisdiction lowers with each subsequent child heading. 
-                    Whereas in Music XML it appears the parent head or root element is score partwise. 
-                        XML then appears to be more organised with Top Level elements which contain grouped lower 
-                        level elements that contain the musical data. It would seem that Music XML has more parent
-                        and child grouping compared with MEI. This would explain why music xml has over ten thousand 
-                        lines of code compared with a few hundred lines with MEI code. 
-    </p>
-
-<p>
-              MEI provides greater affordances for encoding semantically and gaining more structurally rich metadata
-                        for machine reading whereas it is clear that XML is superior in capturing notation and its 
-                        layout. It Is clear that MEI is additionally providing intellectual content about the 
-                        notation rather than just its appearance or structure. It is also noted that MEI includes 
-                        XML IDs to reference.
-  </p>
-
-  <p>
-<a href="Week4Lab.html" title="Week4Lab">Week4Lab</a>
-<a href="verovio.html" title="verovio mei file">verovio mei file</a>
-  </p>
-
   
 </body> 
 </html>
