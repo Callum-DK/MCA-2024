@@ -83,18 +83,21 @@ another command was used to simpify them into the closed position.
 <p>
 HARMONIC ANALYSIS
 </p>
-    
+
+<p>
 Attempted this step, however I could not find a solution to the error message "attribute error" will ask this in class.
 The following code was used: 
+</p>
 
-PAnalysis = pChords
-for c in pAnalysis.recurse().getElementsByClass('Chord'):
-    rn = roman.romanNumeralFromChord(c, key.key('F'))
-    c.addLyric(str(rn.figure))
-pAnalysis.write('musicxml' , fp="chordAnalysis.xml")
+<p>
+  <img src="AttributeError.png" alt="AttributeError"
+  style="max-width: 50%;"/>
+</p>
 
+<p>
 This triggered an attribute error message in cell in[53], line 3. The roman numeral code section. The specific error in question
 was defined as "module 'music21.key' has no attribute 'key'
+</p>
     
 
 DATA STREAM AND GETTING THE AMBITUS
