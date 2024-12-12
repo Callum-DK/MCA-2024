@@ -159,7 +159,33 @@ To get the bits per second of each track I used the following bit rate calculati
   <img src="ImageSonicHuntHim2.png" alt="ImageSonicHuntHim2"
     style="max-width: 90%;"/>
     </p>
-  
+
+  <p>
+    One advantage of time frequency analysis over waveform based analysis
+    is that with time frequency you get simultaneous time and frequency information
+    as opposed to waveform which provides amplitude information over time but does not
+    inherently show frequency content. 
+  </p>
+
+  <p>
+    Techniques like wavelet denoising leverage time-frequency representations to filter 
+    out noise while maintaining the signal's essential characteristics, which might be 
+    challenging with simple waveform analysis.
+  </p>
+
+  <p>
+    Waveform analysis is capable of showing when an audio event takes place and give us information like
+    amplitude and note length. However it doesn't tell us what frequency an event it occuring at
+    unless we carry out further processing and analysis on the waveform. Time frequency analyisis can pinpoint
+    when an event in audio occurs and at exactly what frequency and can tell us when and where the frequency changes.
+  </p>
+
+  <p>
+    If we are analysing complex signals where many frequencies are at play at the same time. Waveform analysis
+    may limit us in this regard. Time frequency analysis provides are more intuative analysis, giving us visual 
+    representations through spectograms which are images with x axis for time and y axis for frequency or vice versa.
+    We also get more information from time frequency analysis like colour intensity to represent changes in amplitude energy.
+  </p>
   
 </body> 
 </html>
